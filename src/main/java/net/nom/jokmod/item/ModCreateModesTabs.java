@@ -20,6 +20,7 @@ public class ModCreateModesTabs {
                     .displayItems((itemDisplayParameter, output) -> {
                         output.accept(ModItem.MISRITE.get());
                         output.accept(ModBlocks.MIS_BLOCK.get());
+                        output.accept(ModItem.DEBUGITEM.get());
                     }).build());
 
     public static  void register(IEventBus eventBus) {

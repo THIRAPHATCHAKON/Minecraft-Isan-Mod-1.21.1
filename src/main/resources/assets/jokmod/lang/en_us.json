@@ -1,6 +1,6 @@
 {
   "item.jokmod.misrite": "Misrite",
   "block.jokmod.mis_block": "Block of Misrite",
-
-  "creative.jokmod.mis_items": "Mis Items"
+  "creative.jokmod.mis_items": "Mis Items",
+  "item.jokmod.debugitem": "Debug Item"
 }

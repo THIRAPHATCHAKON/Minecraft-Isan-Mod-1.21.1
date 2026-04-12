@@ -67,10 +67,8 @@ public class JokMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItem.MISRITE);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModBlocks.MIS_BLOCK);
+            event.accept(ModItem.DEBUGITEM);
         }
     }
 
