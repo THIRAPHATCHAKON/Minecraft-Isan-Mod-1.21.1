@@ -1,0 +1,4 @@
+// 1.21.1	2026-04-17T12:35:00.7983635	Tags for minecraft:block mod id jokmod
+7df435877eee581ee2b9f8b1758f4a8c3fa63b78 data/minecraft/tags/block/mineable/pickaxe.json
+7df435877eee581ee2b9f8b1758f4a8c3fa63b78 data/minecraft/tags/block/needs_diamond_tool.json
+7df435877eee581ee2b9f8b1758f4a8c3fa63b78 data/minecraft/tags/block/needs_iron_tool.json

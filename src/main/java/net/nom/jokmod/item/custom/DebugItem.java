@@ -26,15 +26,12 @@ public class DebugItem extends Item {
     @Override
     public InteractionResult useOn(UseOnContext pContext) {
         Level level = pContext.getLevel();
-        Block clickedBlock = level.getBlockState(pContext.getClickedPos()).getBlock();
-
 
         if(!level.isClientSide()) {
             List<Block> allBlocks = BuiltInRegistries.BLOCK.stream().toList();
             RandomSource random = level.getRandom();
             Block randomBlock = allBlocks.get(random.nextInt(allBlocks.size()));
             level.setBlockAndUpdate(pContext.getClickedPos(), randomBlock.defaultBlockState());
-
 
             pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),
                     item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));

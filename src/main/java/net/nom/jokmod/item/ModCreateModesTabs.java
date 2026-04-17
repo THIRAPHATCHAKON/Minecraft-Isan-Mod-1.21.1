@@ -21,6 +21,8 @@ public class ModCreateModesTabs {
                         output.accept(ModItem.MISRITE.get());
                         output.accept(ModBlocks.MIS_BLOCK.get());
                         output.accept(ModItem.DEBUGITEM.get());
+                        output.accept(ModItem.TOUNGYOD.get());
+                        output.accept(ModItem.RICEWHISKY.get());
                     }).build());
 
     public static  void register(IEventBus eventBus) {
