@@ -27,6 +27,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nom.jokmod.block.ModBlocks;
+import net.nom.jokmod.component.ModDataComponentTypes;
 import net.nom.jokmod.item.ModCreateModesTabs;
 import net.nom.jokmod.item.ModItem;
 import org.slf4j.Logger;
@@ -52,6 +53,8 @@ public class JokMod {
 
         ModItem.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
