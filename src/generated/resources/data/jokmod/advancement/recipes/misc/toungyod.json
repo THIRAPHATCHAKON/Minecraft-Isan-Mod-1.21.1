@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jokmod:toungyod"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_toungyod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_toungyod"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jokmod:toungyod"
+    ]
+  }
+}

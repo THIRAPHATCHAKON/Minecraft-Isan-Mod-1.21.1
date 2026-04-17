@@ -7,6 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nom.jokmod.JokMod;
 import net.nom.jokmod.item.custom.DebugItem;
+import net.nom.jokmod.item.custom.RiceWhisky;
 
 public class ModItem {
     public static final DeferredRegister<Item> ITEMS =
@@ -17,6 +18,17 @@ public class ModItem {
 
     public static final RegistryObject<Item> DEBUGITEM = ITEMS.register("debugitem",
             () -> new DebugItem(new Item.Properties().durability(32)));
+
+    public static final RegistryObject<Item> TOUNGYOD = ITEMS.register("toungyod",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ToungYod)));
+
+    public static final RegistryObject<Item> RICEWHISKY = ITEMS.register("ricewhisky",
+            () -> new RiceWhisky(new Item.Properties().food(ModFoodProperties.RiceWhisky)));
+
+    public static final RegistryObject<Item> YEAST = ITEMS.register("yeast",
+            () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
