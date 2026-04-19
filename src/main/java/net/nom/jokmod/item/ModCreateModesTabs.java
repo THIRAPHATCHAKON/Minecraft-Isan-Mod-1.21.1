@@ -14,15 +14,21 @@ public class ModCreateModesTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JokMod.MOD_ID);
 
-    public  static final RegistryObject<CreativeModeTab> MIS_ITEM_TAB = CREATIVE_MODE_TABS.register("mis_item_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItem.MISRITE.get()))
-                    .title(Component.translatable("cretivetab.jokmod.misrite_items"))
+    public  static final RegistryObject<CreativeModeTab> ISAN_ITEM_TAB = CREATIVE_MODE_TABS.register("isan_item_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItem.METAL_CHARM_INGOT.get()))
+                    .title(Component.translatable("cretivetab.jokmod.isan_items"))
                     .displayItems((itemDisplayParameter, output) -> {
-                        output.accept(ModItem.MISRITE.get());
-                        output.accept(ModBlocks.MIS_BLOCK.get());
+                        output.accept(ModItem.METAL_CHARM_INGOT.get());
+                        output.accept(ModBlocks.METAL_CHARM_ORE.get());
                         output.accept(ModItem.DEBUGITEM.get());
                         output.accept(ModItem.TOUNGYOD.get());
                         output.accept(ModItem.RICEWHISKY.get());
+                        output.accept(ModItem.METAL_CHARM_PICKAXE.get());
+                        output.accept(ModItem.METAL_CHARM_AXE.get());
+                        output.accept(ModItem.METAL_CHARM_SWORD.get());
+                        output.accept(ModItem.METAL_CHARM_SHOVEL.get());
+//                        output.accept(ModItem.METAL_CHARM_HOE.get());
+                        output.accept(ModItem.RAW_METAL_CHARM.get());
                     }).build());
 
     public static  void register(IEventBus eventBus) {

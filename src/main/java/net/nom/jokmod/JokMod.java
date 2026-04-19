@@ -69,8 +69,8 @@ public class JokMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItem.MISRITE);
-            event.accept(ModBlocks.MIS_BLOCK);
+            event.accept(ModItem.METAL_CHARM_INGOT);
+            event.accept(ModBlocks.METAL_CHARM_ORE);
             event.accept(ModItem.DEBUGITEM);
         }
     }

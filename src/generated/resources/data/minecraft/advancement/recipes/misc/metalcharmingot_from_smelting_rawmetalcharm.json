@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rawmetalcharm": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jokmod:rawmetalcharm"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:metalcharmingot_from_smelting_rawmetalcharm"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rawmetalcharm"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:metalcharmingot_from_smelting_rawmetalcharm"
+    ]
+  }
+}

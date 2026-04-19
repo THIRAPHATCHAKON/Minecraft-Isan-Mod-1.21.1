@@ -15,7 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.MIS_BLOCK);
+        blockWithItem(ModBlocks.METAL_CHARM_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

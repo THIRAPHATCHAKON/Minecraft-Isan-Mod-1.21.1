@@ -22,7 +22,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block>  BlOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, JokMod.MOD_ID);
 
-    public static final RegistryObject<Block> MIS_BLOCK = registerBlock("mis_block",
+    public static final RegistryObject<Block> METAL_CHARM_ORE = registerBlock("metalcharmore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()

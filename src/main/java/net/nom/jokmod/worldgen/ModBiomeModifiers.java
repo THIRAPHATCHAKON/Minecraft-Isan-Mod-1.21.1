@@ -13,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.nom.jokmod.JokMod;
 
 public class ModBiomeModifiers {
-    public static final ResourceKey<BiomeModifier> ADD_MIS_BLOCK = registerKey("add_mis_block");
+    public static final ResourceKey<BiomeModifier> ADD_METAL_CHARM_ORE = registerKey("add_metal_charm_ore");
 //    public static final ResourceKey<BiomeModifier> ADD_NETHER_ALEXANDRITE_ORE = registerKey("add_nether_alexandrite_ore");
 //    public static final ResourceKey<BiomeModifier> ADD_END_ALEXANDRITE_ORE = registerKey("add_end_alexandrite_ore");
 
@@ -21,9 +21,9 @@ public class ModBiomeModifiers {
         var placedFeature = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
 
-        context.register(ADD_MIS_BLOCK, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_METAL_CHARM_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeature.getOrThrow(ModPlacedFeatures.MIS_BLOCK_PLACED_KEY)),
+                HolderSet.direct(placedFeature.getOrThrow(ModPlacedFeatures.METAL_CHARM_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
 //         Individual Biomes

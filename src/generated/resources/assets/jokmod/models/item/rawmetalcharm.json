@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "jokmod:item/misrite"
+    "layer0": "jokmod:item/rawmetalcharm"
   }
 }

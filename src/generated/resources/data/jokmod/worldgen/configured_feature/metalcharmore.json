@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "jokmod:mis_block"
+          "Name": "jokmod:metalcharmore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

@@ -1,5 +1,10 @@
-// 1.21.1	2026-04-17T12:35:00.8004125	Item Models: jokmod
+// 1.21.1	2026-04-19T14:31:01.172091	Item Models: jokmod
 643edc195394ca7920860241e7094fafe1faf55a assets/jokmod/models/item/debugitem.json
-6ccad48ebae5eb16941b0b56a68b079349214203 assets/jokmod/models/item/misrite.json
+bf4efd637b3cb6785d653c29ed877f98ad33edeb assets/jokmod/models/item/metalcharmingot.json
+1e1bf21706ecb2f38f14cf5036da83f82313b541 assets/jokmod/models/item/metal_charm_axe.json
+90efd0c417587b9f9a365ee5a7d8b5aab420a243 assets/jokmod/models/item/metal_charm_pickaxe.json
+9db0dca615629336ea11f0061dfdfefa9bc6bbab assets/jokmod/models/item/metal_charm_shovel.json
+00b75dec87715ce7b1e2b32d1405d783b9096190 assets/jokmod/models/item/metal_charm_sword.json
+99acc35770c20d0a725b508fda7ba4b257536e7d assets/jokmod/models/item/rawmetalcharm.json
 e8e04aa8e79631bf0bfc8c09db23a94490a7f53f assets/jokmod/models/item/ricewhisky.json
 722aab17ac2e1a4623ee7c2080718c29df509d01 assets/jokmod/models/item/toungyod.json

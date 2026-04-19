@@ -1,3 +1,5 @@
-// 1.21.1	2026-04-17T19:20:00.7151526	Tags for minecraft:block mod id jokmod
-7df435877eee581ee2b9f8b1758f4a8c3fa63b78 data/minecraft/tags/block/mineable/pickaxe.json
-7df435877eee581ee2b9f8b1758f4a8c3fa63b78 data/minecraft/tags/block/needs_iron_tool.json
+// 1.21.1	2026-04-19T14:31:01.1710843	Tags for minecraft:block mod id jokmod
+06cfe4e905ab667320c3215f9e3d36c0f576e27a data/jokmod/tags/block/incorrect_for_metalcharm_tool.json
+641c1635d6f3dfdf9f3ca52edd3158d47bf61947 data/jokmod/tags/block/needs_metalcharm_tool.json
+465481c178b715d6e278e214d61292a68738a18c data/minecraft/tags/block/mineable/pickaxe.json
+465481c178b715d6e278e214d61292a68738a18c data/minecraft/tags/block/needs_iron_tool.json

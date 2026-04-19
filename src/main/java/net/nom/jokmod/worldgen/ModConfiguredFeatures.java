@@ -20,7 +20,7 @@ import net.nom.jokmod.block.ModBlocks;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_MIS_BLOCK_KEY = registerKey("mis_block");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_MIS_BLOCK_KEY = registerKey("metalcharmore");
 //    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_ALEXANDRITE_ORE_KEY = registerKey("nether_alexandrite_ore");
 //    public static final ResourceKey<ConfiguredFeature<?, ?>> END_ALEXANDRITE_ORE_KEY = registerKey("end_alexandrite_ore");
 
@@ -32,7 +32,7 @@ public class ModConfiguredFeatures {
 //        RuleTest endReplaceables = new BlockMatchTest(Blocks.END_STONE);
 
         List<OreConfiguration.TargetBlockState> overworldMisBlock = List.of(
-                OreConfiguration.target(stoneReplaceables, ModBlocks.MIS_BLOCK.get().defaultBlockState()));
+                OreConfiguration.target(stoneReplaceables, ModBlocks.METAL_CHARM_ORE.get().defaultBlockState()));
 //                OreConfiguration.target(deepslateReplaceables, ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get().defaultBlockState()));
         register(context, OVERWORLD_MIS_BLOCK_KEY, Feature.ORE, new OreConfiguration(overworldMisBlock, 9));
 //        register(context, NETHER_ALEXANDRITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables,

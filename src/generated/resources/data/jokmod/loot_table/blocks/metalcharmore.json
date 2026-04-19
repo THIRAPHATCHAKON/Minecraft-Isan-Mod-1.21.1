@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "jokmod:mis_block"
+              "name": "jokmod:metalcharmore"
             },
             {
               "type": "minecraft:item",
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "jokmod:misrite"
+              "name": "jokmod:rawmetalcharm"
             }
           ]
         }
@@ -57,5 +57,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "jokmod:blocks/mis_block"
+  "random_sequence": "jokmod:blocks/metalcharmore"
 }

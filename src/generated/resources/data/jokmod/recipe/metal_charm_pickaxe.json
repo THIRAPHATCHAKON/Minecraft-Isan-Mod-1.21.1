@@ -3,22 +3,19 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:wheat"
+      "item": "jokmod:metalcharmingot"
     },
     "B": {
-      "item": "minecraft:sugar"
-    },
-    "C": {
-      "item": "minecraft:egg"
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "AB",
-    "C ",
-    "  "
+    "AAA",
+    " B ",
+    " B "
   ],
   "result": {
     "count": 1,
-    "id": "jokmod:toungyod"
+    "id": "jokmod:metal_charm_pickaxe"
   }
 }

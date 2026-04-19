@@ -28,8 +28,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         // dropSelf(ModBlocks.MAGIC_BLOCK.get()); ขุดแล้ว ได้บล็อกนั้นคืนมาเลย
 
-        this.add(ModBlocks.MIS_BLOCK.get(),
-                block -> createMultipleOreDrops(ModBlocks.MIS_BLOCK.get(), ModItem.MISRITE.get(), 2, 4));
+        this.add(ModBlocks.METAL_CHARM_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.METAL_CHARM_ORE.get(), ModItem.RAW_METAL_CHARM.get(), 2, 4));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
