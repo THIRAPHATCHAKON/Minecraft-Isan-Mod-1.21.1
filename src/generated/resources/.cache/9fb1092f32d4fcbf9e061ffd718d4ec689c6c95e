@@ -1,9 +1,11 @@
-// 1.21.1	2026-04-19T21:03:03.2783745	Recipes
+// 1.21.1	2026-04-22T19:26:37.0390896	Recipes
 c90e046c6fca99808d083f72d4289421ec222fc5 data/jokmod/advancement/recipes/misc/metal_charm_axe.json
+cccc3315c221e6f3c02a15fc8979b095aff27221 data/jokmod/advancement/recipes/misc/metal_charm_hoe.json
 ba91487b2d7af362d1c10f783d8c6dec7f0e41a2 data/jokmod/advancement/recipes/misc/metal_charm_pickaxe.json
 358696dc92ff9c32ecf27ffc66ddcaf8779159a0 data/jokmod/advancement/recipes/misc/metal_charm_shovel.json
 d24084861de4ec62d45fe948bb97f11638342d5b data/jokmod/advancement/recipes/misc/metal_charm_sword.json
 d6af9feaeb74feec1e5822f1c9bf9193df3089cb data/jokmod/recipe/metal_charm_axe.json
+58399e51f79c9854f2b131772af69f2f175a4fa5 data/jokmod/recipe/metal_charm_hoe.json
 adeb19f1762d29def84535361b3dd2184ff24fb8 data/jokmod/recipe/metal_charm_pickaxe.json
 f2f8046a22e8309d6f09c88103d1cf777eb23e88 data/jokmod/recipe/metal_charm_shovel.json
 6b8fba2a26d8ef2333fabfce6278a20e02037709 data/jokmod/recipe/metal_charm_sword.json

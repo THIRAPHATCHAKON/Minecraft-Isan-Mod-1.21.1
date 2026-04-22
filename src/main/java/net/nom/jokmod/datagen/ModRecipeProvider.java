@@ -60,6 +60,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItem.METAL_CHARM_SHOVEL.get()), has(ModItem.METAL_CHARM_INGOT.get()))
                 .unlockedBy(getHasName(ModItem.METAL_CHARM_SHOVEL.get()), has(Items.STICK)).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.METAL_CHARM_HOE.get())
+                .pattern("AA")
+                .pattern("B ")
+                .pattern("B ")
+                .define('A', ModItem.METAL_CHARM_INGOT.get())
+                .define('B', Items.STICK)
+                .unlockedBy(getHasName(ModItem.METAL_CHARM_HOE.get()), has(ModItem.METAL_CHARM_INGOT.get()))
+                .unlockedBy(getHasName(ModItem.METAL_CHARM_HOE.get()), has(Items.STICK)).save(pRecipeOutput);
+
 //        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.TOUNGYOD.get())
 //                .pattern("AB")
 //                .pattern("C ")

@@ -29,6 +29,10 @@ public class ModCreateModesTabs {
                         output.accept(ModItem.METAL_CHARM_SHOVEL.get());
                         output.accept(ModItem.METAL_CHARM_HOE.get());
                         output.accept(ModItem.RAW_METAL_CHARM.get());
+                        output.accept(ModItem.METAL_CHARM_HELMET.get());
+                        output.accept(ModItem.METAL_CHARM_CHESTPLATE.get());
+                        output.accept(ModItem.METAL_CHARM_LEGGINGS.get());
+                        output.accept(ModItem.METAL_CHARM_BOOTS.get());
                     }).build());
 
     public static  void register(IEventBus eventBus) {

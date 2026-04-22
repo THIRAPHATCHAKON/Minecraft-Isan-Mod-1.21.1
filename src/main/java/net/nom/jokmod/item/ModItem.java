@@ -47,6 +47,18 @@ public class ModItem {
             () -> new HoeItem(ModToolTiers.METAL_CHARM_INGOT, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.METAL_CHARM_INGOT, 1, -3.0f))));
 
+    public static final RegistryObject<Item> METAL_CHARM_HELMET = ITEMS.register("metal_charm_helmet",
+            () -> new ArmorItem(ModArmorMaterials.METAL_CHARM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+    public static final RegistryObject<Item> METAL_CHARM_CHESTPLATE = ITEMS.register("metal_charm_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.METAL_CHARM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+    public static final RegistryObject<Item> METAL_CHARM_LEGGINGS = ITEMS.register("metal_charm_leggings",
+            () -> new ArmorItem(ModArmorMaterials.METAL_CHARM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+    public static final RegistryObject<Item> METAL_CHARM_BOOTS = ITEMS.register("metal_charm_boots",
+            () -> new ArmorItem(ModArmorMaterials.METAL_CHARM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
 
 
 
