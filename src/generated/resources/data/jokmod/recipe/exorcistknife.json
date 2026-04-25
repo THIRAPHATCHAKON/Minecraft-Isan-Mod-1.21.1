@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "jokmod:metalcharmingot"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "  A",
+    "CA ",
+    "BC "
+  ],
+  "result": {
+    "count": 1,
+    "id": "jokmod:exorcistknife"
+  }
+}
