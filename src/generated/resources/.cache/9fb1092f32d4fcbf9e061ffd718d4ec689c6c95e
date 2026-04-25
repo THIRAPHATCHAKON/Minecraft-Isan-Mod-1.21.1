@@ -1,11 +1,21 @@
-// 1.21.1	2026-04-22T19:26:37.0390896	Recipes
+// 1.21.1	2026-04-25T21:25:33.1592883	Recipes
+6db57b85f9ba8435dd3d87107de9dc3987633804 data/jokmod/advancement/recipes/misc/exorcistknife.json
 c90e046c6fca99808d083f72d4289421ec222fc5 data/jokmod/advancement/recipes/misc/metal_charm_axe.json
+6661c4c15763d2dacc1972fac4001b6fde88e783 data/jokmod/advancement/recipes/misc/metal_charm_boots.json
+399b145c1f49bb8f817168956f23b05800f4955f data/jokmod/advancement/recipes/misc/metal_charm_chestplate.json
+85e5af7076ef3cc1379e7084ac3b4db6464280fc data/jokmod/advancement/recipes/misc/metal_charm_helmet.json
 cccc3315c221e6f3c02a15fc8979b095aff27221 data/jokmod/advancement/recipes/misc/metal_charm_hoe.json
+390c0b05ef214ce57926003275ae21770c9c8b1f data/jokmod/advancement/recipes/misc/metal_charm_leggings.json
 ba91487b2d7af362d1c10f783d8c6dec7f0e41a2 data/jokmod/advancement/recipes/misc/metal_charm_pickaxe.json
 358696dc92ff9c32ecf27ffc66ddcaf8779159a0 data/jokmod/advancement/recipes/misc/metal_charm_shovel.json
 d24084861de4ec62d45fe948bb97f11638342d5b data/jokmod/advancement/recipes/misc/metal_charm_sword.json
+35921f35dc9d5cc68c1155a3f8db8762b52c6bd1 data/jokmod/recipe/exorcistknife.json
 d6af9feaeb74feec1e5822f1c9bf9193df3089cb data/jokmod/recipe/metal_charm_axe.json
+3e8b429a2413467b7d50bf75ee9d5d846e8a0a61 data/jokmod/recipe/metal_charm_boots.json
+4b1c2c6a05427c033b54416f1349223076f2be88 data/jokmod/recipe/metal_charm_chestplate.json
+819ab2bbda30f413d4c44aeeede6f897a7f42cc1 data/jokmod/recipe/metal_charm_helmet.json
 58399e51f79c9854f2b131772af69f2f175a4fa5 data/jokmod/recipe/metal_charm_hoe.json
+f6b4e735dfcd6ecd87eda54e75a811b8be90cadf data/jokmod/recipe/metal_charm_leggings.json
 adeb19f1762d29def84535361b3dd2184ff24fb8 data/jokmod/recipe/metal_charm_pickaxe.json
 f2f8046a22e8309d6f09c88103d1cf777eb23e88 data/jokmod/recipe/metal_charm_shovel.json
 6b8fba2a26d8ef2333fabfce6278a20e02037709 data/jokmod/recipe/metal_charm_sword.json

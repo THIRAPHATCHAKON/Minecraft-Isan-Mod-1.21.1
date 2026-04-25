@@ -1,7 +1,7 @@
 {
   "item.jokmod.rawmetalcharm": "Raw Metal Charm",
   "item.jokmod.metalcharmingot": "Metal Charm Ingot",
-  "block.jokmod.mis_block": "Block of Misrite",
+  "block.jokmod.metalcharmore": "Metal Charm Ore",
   "cretivetab.jokmod.isan_items": "Isan Items",
   "item.jokmod.debugitem": "Debug Item",
   "item.jokmod.ricewhisky": "Rice Whisky",
@@ -9,5 +9,10 @@
   "item.jokmod.metal_charm_pickaxe": "Metal Charm Pickaxe",
   "item.jokmod.metal_charm_shovel": "Metal Charm Shovel",
   "item.jokmod.metal_charm_axe": "Metal Charm Axe",
-  "item.jokmod.metal_charm_hoe": "Metal Charm Hoe"
+  "item.jokmod.metal_charm_hoe": "Metal Charm Hoe",
+  "item.jokmod.metal_charm_helmet": "Metal Charm Helmet",
+  "item.jokmod.metal_charm_chestplate": "Metal Charm Chestplate",
+  "item.jokmod.metal_charm_leggings": "Metal Charm Leggings",
+  "item.jokmod.metal_charm_boots": "Metal Charm Boots",
+  "item.jokmod.exorcistknife": "Exorcist Knife"
 }

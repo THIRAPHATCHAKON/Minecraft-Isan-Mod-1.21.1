@@ -8,6 +8,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nom.jokmod.JokMod;
 import net.nom.jokmod.item.custom.DebugItem;
+import net.nom.jokmod.item.custom.EffcetItem;
+import net.nom.jokmod.item.custom.ExorcistKnife;
 import net.nom.jokmod.item.custom.RiceWhisky;
 
 public class ModItem {
@@ -59,6 +61,13 @@ public class ModItem {
     public static final RegistryObject<Item> METAL_CHARM_BOOTS = ITEMS.register("metal_charm_boots",
             () -> new ArmorItem(ModArmorMaterials.METAL_CHARM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
+    public static final RegistryObject<Item> EFFCETITEM = ITEMS.register("effcetitem",
+            () -> new EffcetItem(new Item.Properties().durability(4000)));
+
+    public static final RegistryObject<Item> EXORCISTKNIFE = ITEMS.register("exorcistknife",
+            () -> new ExorcistKnife(new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.METAL_CHARM_INGOT, 7, -2))));
 
 
 

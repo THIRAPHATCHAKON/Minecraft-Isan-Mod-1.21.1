@@ -69,27 +69,44 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItem.METAL_CHARM_HOE.get()), has(ModItem.METAL_CHARM_INGOT.get()))
                 .unlockedBy(getHasName(ModItem.METAL_CHARM_HOE.get()), has(Items.STICK)).save(pRecipeOutput);
 
-//        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.TOUNGYOD.get())
-//                .pattern("AB")
-//                .pattern("C ")
-//                .pattern("  ")
-//                .define('A', Items.WHEAT)
-//                .define('B', Items.SUGAR)
-//                .define('C', Items.EGG)
-//                .unlockedBy(getHasName(ModItem.TOUNGYOD.get()), has(Items.WHEAT))
-//                .unlockedBy(getHasName(ModItem.TOUNGYOD.get()), has(Items.SUGAR))
-//                .unlockedBy(getHasName(ModItem.TOUNGYOD.get()), has(Items.EGG)).save(pRecipeOutput);
-//
-//        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.TOUNGYOD.get())
-//                .pattern("AB")
-//                .pattern("C ")
-//                .pattern("  ")
-//                .define('A', Items.WHEAT)
-//                .define('B', Items.SUGAR)
-//                .define('C', Items.EGG)
-//                .unlockedBy(getHasName(ModItem.TOUNGYOD.get()), has(Items.WHEAT))
-//                .unlockedBy(getHasName(ModItem.TOUNGYOD.get()), has(Items.SUGAR))
-//                .unlockedBy(getHasName(ModItem.TOUNGYOD.get()), has(Items.EGG)).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.METAL_CHARM_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("   ")
+                .define('A', ModItem.METAL_CHARM_INGOT.get())
+                .unlockedBy(getHasName(ModItem.METAL_CHARM_HELMET.get()), has(ModItem.METAL_CHARM_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.METAL_CHARM_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItem.METAL_CHARM_INGOT.get())
+                .unlockedBy(getHasName(ModItem.METAL_CHARM_CHESTPLATE.get()), has(ModItem.METAL_CHARM_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.METAL_CHARM_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItem.METAL_CHARM_INGOT.get())
+                .unlockedBy(getHasName(ModItem.METAL_CHARM_LEGGINGS.get()), has(ModItem.METAL_CHARM_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.METAL_CHARM_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItem.METAL_CHARM_INGOT.get())
+                .unlockedBy(getHasName(ModItem.METAL_CHARM_BOOTS.get()), has(ModItem.METAL_CHARM_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItem.EXORCISTKNIFE.get())
+                .pattern("  A")
+                .pattern("CA ")
+                .pattern("BC ")
+                .define('A', ModItem.METAL_CHARM_INGOT.get())
+                .define('B', Items.STICK)
+                .define('C', Items.PAPER)
+                .unlockedBy(getHasName(ModItem.EXORCISTKNIFE.get()), has(ModItem.METAL_CHARM_INGOT.get()))
+                .unlockedBy(getHasName(ModItem.EXORCISTKNIFE.get()), has(Items.STICK))
+                .unlockedBy(getHasName(ModItem.EXORCISTKNIFE.get()), has(Items.PAPER)).save(pRecipeOutput);
+
 
 //        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
 //                .requires(ModBlocks.ALEXANDRITE_BLOCK.get())
