@@ -14,5 +14,7 @@
   "item.jokmod.metal_charm_chestplate": "Metal Charm Chestplate",
   "item.jokmod.metal_charm_leggings": "Metal Charm Leggings",
   "item.jokmod.metal_charm_boots": "Metal Charm Boots",
-  "item.jokmod.exorcistknife": "Exorcist Knife"
+  "item.jokmod.exorcistknife": "Exorcist Knife",
+
+  "entity.jokmod.debug": "Debug"
 }

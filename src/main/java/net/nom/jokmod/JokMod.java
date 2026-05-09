@@ -2,6 +2,8 @@ package net.nom.jokmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
@@ -28,6 +30,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nom.jokmod.block.ModBlocks;
 import net.nom.jokmod.component.ModDataComponentTypes;
+import net.nom.jokmod.entity.ModEntities;
+import net.nom.jokmod.entity.client.DebugRenderer;
 import net.nom.jokmod.item.ModCreateModesTabs;
 import net.nom.jokmod.item.ModItem;
 import org.slf4j.Logger;
@@ -53,7 +57,7 @@ public class JokMod {
 
         ModItem.register(modEventBus);
         ModBlocks.register(modEventBus);
-
+        ModEntities.register(modEventBus);
         ModDataComponentTypes.register(modEventBus);
 
         // Register the item to a creative tab
@@ -85,6 +89,7 @@ public class JokMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.DEBUG.get(), DebugRenderer::new);
         }
     }
 }

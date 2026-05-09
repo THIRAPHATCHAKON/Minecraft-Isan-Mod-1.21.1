@@ -35,6 +35,7 @@ public class ModCreateModesTabs {
                         output.accept(ModItem.METAL_CHARM_BOOTS.get());
                         output.accept(ModItem.EFFCETITEM.get());
                         output.accept(ModItem.EXORCISTKNIFE.get());
+                        output.accept(ModItem.DEBUG_SPAWN_EGG.get());
                     }).build());
 
     public static  void register(IEventBus eventBus) {

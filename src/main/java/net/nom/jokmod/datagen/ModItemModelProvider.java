@@ -57,6 +57,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItem.METAL_CHARM_CHESTPLATE);
         trimmedArmorItem(ModItem.METAL_CHARM_LEGGINGS);
         trimmedArmorItem(ModItem.METAL_CHARM_HELMET);
+
+        withExistingParent(ModItem.DEBUG_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     // Shoutout to El_Redstoniano for making this
