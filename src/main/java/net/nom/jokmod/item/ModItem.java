@@ -2,11 +2,13 @@ package net.nom.jokmod.item;
 
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nom.jokmod.JokMod;
+import net.nom.jokmod.entity.ModEntities;
 import net.nom.jokmod.item.custom.DebugItem;
 import net.nom.jokmod.item.custom.EffcetItem;
 import net.nom.jokmod.item.custom.ExorcistKnife;
@@ -69,8 +71,8 @@ public class ModItem {
             () -> new ExorcistKnife(new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.METAL_CHARM_INGOT, 7, -2))));
 
-
-
+    public static final RegistryObject<Item> DEBUG_SPAWN_EGG = ITEMS.register("debugspawnegg",
+            () -> new ForgeSpawnEggItem(ModEntities.DEBUG, 0x53524b, 0xdac741, new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
