@@ -64,7 +64,7 @@ public class DebugModel<T extends DebugEntity> extends HierarchicalModel<T> {
         this.root().getAllParts().forEach(ModelPart::resetPose);
 
         this.animate(entity.idleAnimationState, DebugAnimations.ANIM_DEBUG_IDLE, ageInTicks, 1f);
-        this.animate(entity.walkAnimationState, DebugAnimations.ANIM_DEBUG_WALKING, ageInTicks, 1f); // ✅ เปลี่ยน
+        this.animate(entity.walkAnimationState, DebugAnimations.ANIM_DEBUG_WALKING, ageInTicks, 1f);
 
         this.applyHeadRotation(netHeadYaw, headPitch);
     }
